@@ -1,0 +1,93 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	padding: 70px;
+}
+
+h1 {
+	font-family: 'Voltaire', sans-serif;
+	font-size: 55px;
+	font-variant:small-caps;
+
+}
+
+h2 {
+	font-family: 'Voltaire', sans-serif;
+	font-size: 45px;
+	color: rgba(239, 242, 246, 0.9);
+}
+
+h3 {
+	font-family: 'Voltaire', sans-serif;
+	font-size: 36px;
+	color: #00bdcc;
+	font-variant:small-caps;
+}
+
+.hero {
+	background-color; white;
+	padding-top: 50px;
+}
+
+
+/* Custom Nav CSS */
+
+.navbar-nav > li > a {
+	line-height: 70px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #00bdcc;
+}
+
+.navbar-nav > li {
+	display: inline-block;
+	float: none;
+	font-family: 'Voltaire', sans-serif;
+	font-size: 27px;
+}
+
+.navbar-nav {
+	float: none;
+	height: 100px;
+}
+
+.navbar-default {
+	background-color: rgba(239, 242, 246, 0.7);
+}
+
+.navbar-brand img {
+	height: 71px;
+	width: 70px;
+}
+
+/* Main Logo */
+
+.logo {
+	margin: 15px 10px 10px 20px;
+	float: none;
+	display: inline-block;
+}
+
+/* buttons */
+.box-button {
+	border: 3px solid black;
+	padding: 20px;
+	margin: 10px;
+	height: 75px;
+	width: 250px;
+}
+
+
+/* Social Icons */
+
+.fa-facebook-square {
+	color: rgba(239, 242, 246, 0.5);
+	margin: 10px;
+}
+
+a > .fa-facebook-square:hover {
+	color: rgba(41, 158, 222, 0.5);
+}
